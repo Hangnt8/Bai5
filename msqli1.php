@@ -1,9 +1,8 @@
 <?php
-// Thực hiện kết nối tới cơ sở dữ liệu
-$servername = "localhost"; // Tên máy chủ MySQL
-$username = "your_username"; // Tên người dùng MySQL
-$password = "your_password"; // Mật khẩu người dùng MySQL
-$dbname = "khachhang"; // Tên cơ sở dữ liệu
+$servername = "localhost"; 
+$username = "your_username"; 
+$password = "your_password"; 
+$dbname = "khachhang"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
